@@ -15,7 +15,7 @@ Bot = Client(
 START_TEXT = """
 <b>Hello {}
 
-I am a Simple Telegram Info Gathering Bot, Click /help to know my Commands and my uses<b>
+I am a Simple Telegram Info Gathering Bot, Click /help to know my Command and join my channel @tobot_update for more update about this bot <b>
 """
 HELP_TEXT = """
 🤔 How to use me?
@@ -42,26 +42,26 @@ ABOUT_TEXT = """
 
 BOT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="SOURCE", url=f"https://github.com/aaditya318/Info-Bot")
+        InlineKeyboardButton(text="🛑Support us🛑", url=f"https://telegram.me/tobot_update")
         ]]
     )
 
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="SOURCE", url=f"https://github.com/Aaditya318/Info-Bot")
+        InlineKeyboardButton(text="🛑 Support us🛑", url=f"https://telegram.me/prifix")
         ]]
     )
 
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="SOURCE", url=f"https://github.com/Aaditya318/Info-Bot")
+        InlineKeyboardButton(text="🛑 Support us🛑", url=f"https://telegram.me/prifix")
         ]]
     )
 
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="SOURCE", url=f"https://github.com/Aaditya318/Info-Bot")
+        InlineKeyboardButton(text="🛑 Support us🛑", url=f"https://telegram.me/prifix")
         ]]
     )
                 
